@@ -219,19 +219,19 @@ function App() {
       </div>
       {user?.displayName ?
         (<ImageUpload username={user.displayName} />):
-        (<h3>Sorry, you need to login to upload an image 👍</h3> )
+        (<h3>Sorry, you need to login to upload an image</h3> )
       }
 
       <div className="app__footer">
           <div className="app__footerButton">
-            <Button type="submit" className="app__footerIcons">
-              <HomeIcon/>
-              <h5>Home</h5> 
-            </Button>
-            <Button type="submit" className="app__footerIcons"> 
-              <MenuIcon/>
-              <h5>More</h5>
-            </Button>
+                <Button type="submit" className="app__footerIcons">
+                  <HomeIcon/>
+                  <h5>Home</h5> 
+                </Button>
+                <Button type="submit" className="app__footerIcons"> 
+                  <MenuIcon/>
+                  <h5>More</h5>
+                </Button>
           </div>  
           <img className="app__headerImage" src="https://fontmeme.com/images/instagram-new-logo.png" alt=""/>
       </div>
